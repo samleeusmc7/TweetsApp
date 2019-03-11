@@ -9,12 +9,10 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import java.util.List;
-
 import com.bumptech.glide.Glide;
 import com.codepath.apps.restclienttemplate.models.Tweet;
 
-import static com.codepath.apps.restclienttemplate.R.id.ivProfileImage;
+import java.util.List;
 
 public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder>
 {
@@ -55,7 +53,7 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder
 
     public void clear()
     {
-        tweets.clear;
+        tweets.clear();
         notifyDataSetChanged();
     }
 
